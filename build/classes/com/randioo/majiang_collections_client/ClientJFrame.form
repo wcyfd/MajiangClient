@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="hostText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="portText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="linkButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="submitGameInfoButton" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="role1Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="role1Text" min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="role2Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="role2Text" min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="role3Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="role3Text" min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="role4Label" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="role4Text" min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="remainCardsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="gameLockText" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="getGameInfoButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="submitGameEnvVarsButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="1" min="-2" pref="203" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hostText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="portText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="linkButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="gameLockText" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="getGameInfoButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="role1Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="role1Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="role2Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="role2Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="role3Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="role3Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="role4Label" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="role4Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="remainCardsLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="140" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane1" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="submitGameInfoButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="submitGameEnvVarsButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="gameLockText">
+      <Properties>
+        <Property name="columns" type="int" value="15"/>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="getGameInfoButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x83b7;&#x53d6;&#x8be5;&#x5e10;&#x53f7;&#x6240;&#x5c5e;&#x7684;&#x6e38;&#x620f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="role1Text">
+      <Properties>
+        <Property name="columns" type="int" value="130"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="role1Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x73a9;&#x5bb6;1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="role2Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x73a9;&#x5bb6;2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="role2Text">
+      <Properties>
+        <Property name="columns" type="int" value="100"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="role3Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x73a9;&#x5bb6;3"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="role3Text">
+    </Component>
+    <Component class="javax.swing.JLabel" name="role4Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x73a9;&#x5bb6;4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="role4Text">
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jTable1">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="23">
+                <Column editable="true" title="&#x53d8;&#x91cf;&#x540d;" type="java.lang.String"/>
+                <Column editable="true" title="&#x503c;" type="java.lang.String"/>
+                <Column editable="true" title="&#x7c7b;&#x578b;" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="remainCardsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5269;&#x4f59;&#x724c;&#x6570;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="submitGameEnvVarsButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x63d0;&#x4ea4;&#x8be5;&#x5c40;&#x6e38;&#x620f;&#x7684;&#x73af;&#x5883;&#x53d8;&#x91cf;"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="remainCardsText">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="submitGameInfoButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x63d0;&#x4ea4;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5730;&#x5740;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hostText">
+      <Properties>
+        <Property name="columns" type="int" value="16"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x7aef;&#x53e3;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="portText">
+      <Properties>
+        <Property name="columns" type="int" value="6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x623f;&#x95f4;&#x53f7;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="linkButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x8fde;&#x63a5;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
